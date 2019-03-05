@@ -12,7 +12,7 @@ There is a continuous real time stream of credit/debit cards transactions. This 
 
 1. There is a model that can identify fraudulent transactions. Each transaction is validated against the model in real time, then fraudulent transactions and non-fraudulent transactions are stored in two different tables in a Cassandra Key space. Immediate actions to stop fraudulent transactions can be taken based on new records added to database. An artificial real time stream was generated using a JSON file for testing purposes.
 
-1. Model will be updated in a daily basis as a batch job. When creating a new model all the transactions occurred since creation of previous model along with other old data is taken into consideration.
+1. Model will be updated on a daily basis as a batch job. When creating a new model all the transactions occurred since creation of previous model along with other old data is taken into consideration.
 
 1. There were CSV files containing customer data and transaction data collected before the implementation of this system. So that code was written to store that data in Cassandra database.
 
