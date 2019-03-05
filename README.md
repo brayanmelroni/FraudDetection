@@ -1,6 +1,6 @@
 # Real time Credit Card fraud detection System
 
-There is a continuous real time stream of credit/debit cards transactions. This system aims at analysing this transaction data as it comes and identifying fraudulent transactions. Each transaction in the stream corresponds to a valid JSON record.
+There is a continuous real time stream of credit/debit cards transactions. This system aims at analysing this transaction data as it comes in and identifying fraudulent transactions. Each transaction in the stream corresponds to a valid JSON record.
 
 **Technologies used:** Kafka, Apache Spark and Spark Streaming, Cassandra
 
